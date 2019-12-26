@@ -1,2 +1,4 @@
+0.0.2-20191226
+- #5 of YouTube tutorial
 0.0.1-20191226
-- initial flutter hello world
+- initial flutter hello world (tutorial #4)
