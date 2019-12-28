@@ -1,3 +1,5 @@
+0.0.4-20191228
+- #7: hot reload, with a custom widget inheriting from StatelessWidget
 0.0.3-20191227
 - #6 use downloaded font from fonts.google.com -> IndieFlower
 0.0.2-20191226
