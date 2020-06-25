@@ -64,3 +64,9 @@ Keep emulator runnung, then:
   hit [F5]
 It works!
 
+It turns out, Android Studio 4.0 doesn't support Flutter App!
+What a shame!
+old 3.5.3 was     android-studio-ide-191.5791312-windows.exe
+Download AS 3.6 - android-studio-ide-192.6200805-windows.exe
+AS 4.0 was named  android-studio-ide-193.6514223-windows.exe
+
