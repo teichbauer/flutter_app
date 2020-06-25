@@ -1,0 +1,66 @@
+2020-06-23
+Android-Studio
+3.5.3 updated to 4.0: I have to download and manually run the installation. Path:
+  c:\Program Files\Android\Android Studio
+it asked me if to import prev config file at
+  C:\Users\raymo\.AndroidStudio3.5\config
+[OK]
+	
+   
+The old (3.5.3) was 1.27GB.
+
+Tools > AVD Manager, Create Virtual Device:
+
+created AVD/Pie API level: 28 x86 /Android 9.0(Google Play):
+Packages to install: 
+- Google Play Intel x86 Atom System Image (system-images;android-28;google_apis_playstore;x86)
+
+Preparing "Install Google Play Intel x86 Atom System Image (revision: 9)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86-28_r09.zip
+
+SDK path: C:\Users\raymo\AppData\Local\Android\Sdk
+
+give a name: "Pixel 3 API 28": 5.46 100x2160 xxhdpi, Pie(Android 9.0 x86)
+
+Run the Android Emulator( from Android Studio > Tools, AVD manager
+On the Android Virtual Device Manager window, pick the one named
+"Pixel 3 API 28, on last col: Actions, lick on that play icon(triangle)
+
+After emulator is up, hit RUN button in Android-Studio(AS).
+I see now "my first app" with "Hello Nijias"
+
+When I kill Android Studio, the emulator is not killed and is still up.
+
+
+2020-06-24
+=====================
+flutter doctor
+d:\flutter>flutter doctor
+Doctor summary (to see all details, run flutter doctor -v):
+[√] Flutter (Channel beta, 1.19.0-4.1.pre, on Microsoft Windows [Version 10.0.20150.1000], locale en-US)
+
+[√] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+[√] Chrome - develop for the web
+[√] Android Studio (version 3.5)
+[√] VS Code (version 1.46.1)
+[√] Connected device (3 available)
+
+• No issues found!
+
+start Android Studio 4.0
+  Error runing android: Gradle project sync failed. Please fix your project and try again.
+  ...
+  Cannot make it.
+
+Flutter
+===================
+installation path:
+  d:/flutter
+added to path:
+  d:/flutter/bin
+
+Keep emulator runnung, then:
+  code .
+  hit [F5]
+It works!
+

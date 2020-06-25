@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
-));
+      home: Home(),
+    ));
 
 class Home extends StatelessWidget {
   @override
@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Hello Ninjias", //"大虾们好",
+          "Hello Ninjas", //"大虾们好",
           style: TextStyle(
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){},
+        onPressed: () {},
         child: Text('click that'),
         backgroundColor: Colors.red[400],
       ),

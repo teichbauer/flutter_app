@@ -1,3 +1,7 @@
+0.0.5-20200624
+- downloaded Android Studio4.0, and it stops working(cannot run up this app)
+  usnig vs code, it works (With previously started emultor)
+  ?How I start the emulator without Android Studio?
 0.0.4-20191228
 - #7: hot reload, with a custom widget inheriting from StatelessWidget
 0.0.3-20191227
